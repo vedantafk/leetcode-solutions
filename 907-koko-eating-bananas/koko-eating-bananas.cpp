@@ -11,7 +11,7 @@ public:
         while(st <= en) {
             int mid = (st + en)/2;
 
-            long long int hours = 0;
+            long int hours = 0;
             for(int pile : piles){
             int div = pile / mid;
             hours += div;
